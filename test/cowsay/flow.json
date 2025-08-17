@@ -5,24 +5,6 @@
 			"aliases": {
 				"testing": "0000000000000007"
 			}
-		},
-		"CowSayPhlow": {
-			"source": "cadence/contracts/CowSayPhlow.cdc",
-			"aliases": {
-				"testing": "0000000000000007"
-			}
-		},
-		"HelloWorld": {
-			"source": "cadence/contracts/HelloWorld.cdc",
-			"aliases": {
-				"testing": "0000000000000007"
-			}
-		},
-		"cadence/contracts/Counter": {
-			"source": "cadence/contracts/cadence/contracts/Counter.cdc",
-			"aliases": {
-				"testing": "0000000000000007"
-			}
 		}
 	},
 	"dependencies": {
@@ -236,13 +218,6 @@
 				"type": "file",
 				"location": "emulator-account.pkey"
 			}
-		}
-	},
-	"deployments": {
-		"emulator": {
-			"emulator-account": [
-				"FlowExecutionParameters"
-			]
 		}
 	}
 }
